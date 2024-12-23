@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: thistle;
+}
+/*CONTAINER*/
+.container1{
+  height: 300px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.content{
+  display: flex;
+  height:150px;
+  width:100%;
+  align-items: center;
+  justify-content: space-between;
+}
+h1{
+  letter-spacing: 5px;
+  color: white;
+}
+h2{
+  font-size: 35px;
+  color: black;
+}
+.container1content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-in-container1{
+  width: 690px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:black;
+
+  
+}
+.rightsideimg{
+  height: 220px;
+}
+.leftsideimg{
+  height: 280px;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 28px;
+}
+.container2 img{
+  height: 660px;
+  margin-left: 20px;
+}
+.content-container{
+  display: flex;
+  flex-direction: column;
+  height: 660px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  text-align: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0px 0px 12px gray;
+}
+.main-content p{
+  width: 600px;
+  font-size: 19px;
+  
+}
+.container-3{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.counter-coustomer h2{
+  font-size: 20px;
+  text-align: center;
+}
+.counter-coustomer p{
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+  font-weight: bold;
+}
+/*FOOTER*/
+
+.footer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 120px;
+}
+
+.contentinfooter{
+  display: flex;
+  width: 100%;
+  flex-direction:row;
+  justify-content:space-evenly;
+  position: relative;
+  color:white; 
+}
+.footerlogo{
+  height: 80px;
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+ul{
+  list-style: none;
+}
+.websitename{
+  margin: 120px;
+  margin-left: -170px;
+  font-size: 22px;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  padding-bottom: 8px;
+  letter-spacing: 1px;
+}
+.footersymbol{
+  height: 25px;
+  position: absolute;
+  margin-left: -28px;
+  background-color: white;
+  border-radius: 20px;
+}
+a:hover{
+  text-decoration: underline;
+}
